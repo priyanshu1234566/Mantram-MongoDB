@@ -34,13 +34,12 @@ const Footer = () => {
                 <div className="flex flex-col sm:flex-row items-center justify-between w-full gap-3 text-xs text-gray-600">
                     <span>© {new Date().getFullYear()} <span className="text-green-500/70">मन्त्रम्</span>. All rights reserved.</span>
 
-                    <div className="flex flex-col sm:flex-row items-center justify-between w-full gap-3 text-xs text-gray-600">
-                    <span>© {new Date().getFullYear()} <span className="text-green-500/70">Priyanshu Kumar</span>. All rights reserved.</span>
+                    
 
                     <div className="flex items-center gap-1">
-                        <span>Made with</span>
+                        <span>Made By</span>
                         <span className="text-green-500 animate-pulse mx-0">♥</span>
-                        <span>using React & Tailwind</span>
+                        <span>PRIYANSHU-ssusing React & Tailwind</span>
                     </div>
                     <div
                         href="https://github.com"
