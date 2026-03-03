@@ -77,10 +77,10 @@ This project is designed following scalable architecture principles and clean co
 ![Home Screenshot](./src/icons/1.png)
 
 ## ➕ Create Data
-![Create Screenshot](./screenshots/create.png)
+![Create Screenshot](./src/icons/3.png)
 
 ## 📋 Data Listing
-![List Screenshot](./screenshots/list.png)
+![List Screenshot](./src/icons/4.png)
 
 ## ✏️ Update Feature
 ![Update Screenshot](./src/icons/2.png)
@@ -250,7 +250,7 @@ DELETE /api/items/:id
 
 # 👨‍💻 Author
 
-**5G Star Saini**
+**PRIYANSHU KUMAR**
 
 📧 Connect with me for collaboration  
 ⭐ If you like this project, give it a star!
