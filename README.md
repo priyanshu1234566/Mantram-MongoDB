@@ -1,43 +1,93 @@
 # 🚀 Mantram MongoDB Web Application
 
-🔗 **Live Demo:** https://mantram-mongo-db.vercel.app/
-
-A full-stack web application built using **React + Vite** for the frontend and **Node.js, Express, and MongoDB** for the backend.  
-This project demonstrates CRUD operations, REST API integration, and modern development practices.
-
----
-
-## 📌 Tech Stack
-
-### 🖥 Frontend
-- React.js
-- Vite
-- Axios
-- Tailwind CSS (if used)
-- ESLint
-
-### 🌐 Backend
-- Node.js
-- Express.js
-- MongoDB
-- dotenv
-- body-parser / express.json()
+<p align="center">
+  <a href="https://mantram-mongo-db.vercel.app/">
+    <img src="https://img.shields.io/badge/Live-Demo-success?style=for-the-badge&logo=vercel" />
+  </a>
+  <img src="https://img.shields.io/badge/React-18-blue?style=for-the-badge&logo=react" />
+  <img src="https://img.shields.io/badge/Vite-Fast-purple?style=for-the-badge&logo=vite" />
+  <img src="https://img.shields.io/badge/Node.js-Backend-green?style=for-the-badge&logo=node.js" />
+  <img src="https://img.shields.io/badge/MongoDB-Database-darkgreen?style=for-the-badge&logo=mongodb" />
+  <img src="https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge" />
+</p>
 
 ---
 
-## ✨ Features
+## 🌐 Live Demo
+
+🔗 **Production URL:**  
+👉 https://mantram-mongo-db.vercel.app/
+
+---
+
+# 📌 Project Overview
+
+**Mantram MongoDB Web Application** is a full-stack CRUD application built using modern web technologies.  
+
+It demonstrates:
+- REST API integration
+- MongoDB database operations
+- Full frontend-backend communication
+- Production deployment workflow
+
+This project is designed following scalable architecture principles and clean coding standards.
+
+---
+
+# 🛠 Tech Stack
+
+## 🎨 Frontend
+- ⚛️ React.js
+- ⚡ Vite
+- 🎨 Tailwind CSS
+- 📡 Axios
+- 🧹 ESLint
+
+## 🌐 Backend
+- 🟢 Node.js
+- 🚏 Express.js
+- 🍃 MongoDB
+- 🔐 dotenv
+
+## ☁️ Deployment
+- Frontend: **Vercel**
+- Backend: Render / Railway / VPS
+- Database: MongoDB Atlas
+
+---
+
+# ✨ Core Features
 
 - ✅ Create Data
 - ✅ Read Data
 - ✅ Update Data
 - ✅ Delete Data
-- ⚡ Fast Development with Vite (HMR)
-- 🔐 Environment Variable Support
-- 🌍 REST API Integration
+- 🔄 Real-time UI updates
+- ⚡ Fast HMR with Vite
+- 🔐 Secure environment variables
+- 🌍 RESTful API Architecture
 
 ---
 
-## 📂 Project Structure
+# 🖼 Screenshots
+
+> 📌 Add your screenshots inside a `/screenshots` folder in your project
+
+## 🏠 Home Page
+![Home Screenshot](./screenshots/home.png)
+
+## ➕ Create Data
+![Create Screenshot](./screenshots/create.png)
+
+## 📋 Data Listing
+![List Screenshot](./screenshots/list.png)
+
+## ✏️ Update Feature
+![Update Screenshot](./screenshots/update.png)
+
+---
+
+# 📂 Project Structure
 
 ```
 Mantram-MongoDB/
@@ -58,9 +108,9 @@ Mantram-MongoDB/
 
 ---
 
-## ⚙️ Installation & Setup
+# ⚙️ Installation Guide
 
-### 1️⃣ Clone the Repository
+## 1️⃣ Clone Repository
 
 ```bash
 git clone https://github.com/your-username/your-repo-name.git
@@ -69,21 +119,21 @@ cd your-repo-name
 
 ---
 
-### 2️⃣ Backend Setup
+## 2️⃣ Backend Setup
 
 ```bash
 cd server
 npm install
 ```
 
-Create a `.env` file inside the server folder:
+Create `.env` file inside `server` folder:
 
 ```
 PORT=5000
 MONGO_URI=your_mongodb_connection_string
 ```
 
-Start Backend Server:
+Start backend:
 
 ```bash
 npm start
@@ -91,7 +141,7 @@ npm start
 
 ---
 
-### 3️⃣ Frontend Setup
+## 3️⃣ Frontend Setup
 
 ```bash
 cd client
@@ -99,7 +149,7 @@ npm install
 npm run dev
 ```
 
-Frontend will run on:
+Frontend runs at:
 
 ```
 http://localhost:5173
@@ -107,52 +157,106 @@ http://localhost:5173
 
 ---
 
-## 🚀 Available Scripts
+# 📊 API Documentation
 
-### Frontend
-- `npm run dev` → Start development server
-- `npm run build` → Production build
-- `npm run preview` → Preview production build
+Base URL (Local):
+```
+http://localhost:5000/api
+```
+
+---
+
+## 📌 1. Get All Records
+
+```
+GET /api/items
+```
+
+### Response:
+```json
+[
+  {
+    "_id": "12345",
+    "name": "Sample Data",
+    "createdAt": "2026-03-01"
+  }
+]
+```
+
+---
+
+## 📌 2. Create Record
+
+```
+POST /api/items
+```
+
+### Body:
+```json
+{
+  "name": "New Item"
+}
+```
+
+---
+
+## 📌 3. Update Record
+
+```
+PUT /api/items/:id
+```
+
+### Body:
+```json
+{
+  "name": "Updated Name"
+}
+```
+
+---
+
+## 📌 4. Delete Record
+
+```
+DELETE /api/items/:id
+```
+
+---
+
+# 🚀 Production Deployment
+
+### Frontend (Vercel)
+- Connect GitHub repo
+- Set build command: `npm run build`
+- Output directory: `dist`
 
 ### Backend
-- `npm start` → Start server
-- `npm run dev` → Start server with nodemon (if installed)
+- Deploy on Render / Railway
+- Add environment variables
+- Connect MongoDB Atlas
 
 ---
 
-## 🌍 Deployment
+# 🔮 Future Enhancements
 
-- **Frontend:** Deployed on Vercel  
-- **Backend:** Can be deployed on Render / Railway / VPS  
-- **Database:** MongoDB Atlas
-
----
-
-## 📖 About Vite + React
-
-This project uses Vite for faster builds and Hot Module Replacement (HMR).
-
-Available official plugins:
-
-- `@vitejs/plugin-react` (Babel based)
-- `@vitejs/plugin-react-swc` (SWC based)
+- 🔐 JWT Authentication
+- 👤 User Login / Register
+- 📊 Admin Dashboard
+- 🌈 Advanced UI Animations
+- 🧪 Unit & Integration Testing
+- 📦 TypeScript Migration
 
 ---
 
-## 🧠 Future Improvements
+# 👨‍💻 Author
 
-- 🔐 Add Authentication (JWT)
-- 📊 Add Dashboard UI
-- 🌈 Improve UI/UX
-- 📦 Add TypeScript Support
-- 🧪 Add Testing (Jest / Vitest)
+**5G Star Saini**
 
----
-
-## 👨‍💻 Author
-
-Developed by **Priyanshu Kumar**
-
-If you like this project, don’t forget to ⭐ the repository!
+📧 Connect with me for collaboration  
+⭐ If you like this project, give it a star!
 
 ---
+
+# 📜 License
+
+This project is licensed under the MIT License.
