@@ -74,7 +74,7 @@ This project is designed following scalable architecture principles and clean co
 > 📌 Add your screenshots inside a `/screenshots` folder in your project
 
 ## 🏠 Home Page
-![Home Screenshot](./screenshots/home.png)
+![Home Screenshot](./src/icons/1.png)
 
 ## ➕ Create Data
 ![Create Screenshot](./screenshots/create.png)
@@ -83,7 +83,7 @@ This project is designed following scalable architecture principles and clean co
 ![List Screenshot](./screenshots/list.png)
 
 ## ✏️ Update Feature
-![Update Screenshot](./screenshots/update.png)
+![Update Screenshot](./src/icons/2.png)
 
 ---
 
