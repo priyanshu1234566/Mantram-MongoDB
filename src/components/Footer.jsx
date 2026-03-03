@@ -32,7 +32,7 @@ const Footer = () => {
 
                 {/* Bottom row */}
                 <div className="flex flex-col sm:flex-row items-center justify-between w-full gap-3 text-xs text-gray-600">
-                    <span>© {new Date().getFullYear()} <span className="text-green-500/70">मन्त्रम्</span>. All rights reserved.</span>
+                    <span>© {new Date().getFullYear()} <span className="text-green-500/70">मन्त्रम्</span>. All rights reserved.<span>Priyanshu Kumar</span></span>
 
                     <div className="flex items-center gap-1">
                         <span>Made with</span>
