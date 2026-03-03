@@ -201,7 +201,7 @@ const savePassword = async () => {
                                     name="password"
                                     onChange={handleChange}
                                     type="password"
-                                    placeholder="🔑  Enter Password"
+                                    placeholder="🔑 Enter Password"
                                     className="w-full px-5 pr-12 h-11 rounded-full bg-gray-800 border border-gray-700 text-gray-100 placeholder-gray-500
                                                focus:outline-none focus:border-green-500 focus:ring-2 focus:ring-green-500/30
                                                transition-all duration-300 hover:border-gray-600 text-sm"
