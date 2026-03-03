@@ -7,17 +7,17 @@ const Navbar = () => {
             {/* Logo */}
             <div className="relative group w-16 h-16 cursor-default select-none flex flex-row items-center gap-1">
                 {/* Glow behind logo */}
-                <div className="absolute -inset-2 bg-green-500/10 rounded-full blur-lg opacity-0 group-hover:opacity-100 transition-opacity duration-700" />
+                <div className="absolute -inset-2 bg-sky-500/10 rounded-full blur-lg opacity-0 group-hover:opacity-100 transition-opacity duration-700" />
                 {/* Paste this anywhere in your JSX */}
                 <div className="relative flex items-center justify-center w-16 h-16 group">
 
                     {/* Outer rotating ring */}
-                    <div className="absolute inset-0 rounded-full border border-green-500/30 animate-spin [animation-duration:8s]" />
-                    <div className="absolute inset-[-4px] rounded-full border border-emerald-400/20 animate-spin [animation-duration:12s] [animation-direction:reverse]" />
+                    <div className="absolute inset-0 rounded-full border border-sky-500/30 animate-spin [animation-duration:8s]" />
+                    <div className="absolute inset-[-4px] rounded-full border border-sky-400/20 animate-spin [animation-duration:12s] [animation-direction:reverse]" />
 
                     {/* Pulsing glow backdrop */}
-                    <div className="absolute inset-0 rounded-full bg-green-500/10 blur-md animate-pulse" />
-                    <div className="absolute inset-[-6px] rounded-full bg-green-400/5 blur-xl animate-pulse [animation-delay:1s]" />
+                    <div className="absolute inset-0 rounded-full bg-sky-500/10 blur-md animate-pulse" />
+                    <div className="absolute inset-[-6px] rounded-full bg-sky-400/5 blur-xl animate-pulse [animation-delay:1s]" />
 
                     {/* The SVG itself */}
                     <svg
@@ -29,14 +29,15 @@ const Navbar = () => {
                         xmlns="http://www.w3.org/2000/svg"
                         viewBox="-179.2 -179.2 870.40 870.40"
                     >
-                        {/* Green glowing background blob */}
-                        <g transform="translate(0,0), scale(1)">
-                            <path
-                                transform="translate(-179.2, -179.2), scale(27.2)"
-                                d="M16,26.633562846574932C18.077048944892997,27.001159834987334,20.091371809432825,29.35720177167912,21.98528324344821,28.428568719566087C23.885601684720783,27.496794148479523,22.997108822686588,24.285360965249847,24.257161129752788,22.584866268692014C25.455536981928596,20.96760659647043,28.28560558766324,20.849493622770478,28.996667526825632,18.96640455181632C29.686427541882587,17.13972887927932,28.160562089125666,15.226948858880453,27.75690973720951,13.316562073487917C27.34681951844374,11.375706455950008,27.829579759540014,9.103458407404164,26.586114924976073,7.557855055680738C25.342354877022043,6.011884759277807,23.052221961706962,5.918641163642775,21.210737114445305,5.1797928899407335C19.476400228636457,4.48393497071694,17.858060943455513,3.111070070065112,16,3.31044962676242C14.140975482795746,3.5099325799104983,13.117677471241727,5.799650274780538,11.301335657773876,6.243122958055965C8.847143038457594,6.842331420963601,5.522075288579746,4.420220888909147,3.817608110780741,6.284866655410802C2.1773277633188703,8.079293585778663,4.4330785963879755,11.015893566749956,4.7332587616866135,13.42843983471257C4.943426621121531,15.117557716371971,5.184235969218525,16.739547135600915,5.329444210936192,18.43548472696985C5.497049457458343,20.39300473220652,4.53326034213216,22.636441659092142,5.659495188202534,24.246277415018927C6.771338200595723,25.83554153925831,9.064968779177775,26.040086949643847,10.954833971413397,26.47639520761995C12.615061434804725,26.859687600840584,14.322175893724182,26.3366208365808,16,26.633562846574932"
-                                fill="#00ff9d"
-                            />
-                        </g>
+                      {/* Sky blue glowing background blob */}
+<g transform="translate(0,0), scale(1)">
+    <path
+        transform="translate(-179.2, -179.2), scale(27.2)"
+        d="M16,26.633562846574932C18.077048944892997,27.001159834987334,20.091371809432825,29.35720177167912,21.98528324344821,28.428568719566087C23.885601684720783,27.496794148479523,22.997108822686588,24.285360965249847,24.257161129752788,22.584866268692014C25.455536981928596,20.96760659647043,28.28560558766324,20.849493622770478,28.996667526825632,18.96640455181632C29.686427541882587,17.13972887927932,28.160562089125666,15.226948858880453,27.75690973720951,13.316562073487917C27.34681951844374,11.375706455950008,27.829579759540014,9.103458407404164,26.586114924976073,7.557855055680738C25.342354877022043,6.011884759277807,23.052221961706962,5.918641163642775,21.210737114445305,5.1797928899407335C19.476400228636457,4.48393497071694,17.858060943455513,3.111070070065112,16,3.31044962676242C14.140975482795746,3.5099325799104983,13.117677471241727,5.799650274780538,11.301335657773876,6.243122958055965C8.847143038457594,6.842331420963601,5.522075288579746,4.420220888909147,3.817608110780741,6.284866655410802C2.1773277633188703,8.079293585778663,4.4330785963879755,11.015893566749956,4.7332587616866135,13.42843983471257C4.943426621121531,15.117557716371971,5.184235969218525,16.739547135600915,5.329444210936192,18.43548472696985C5.497049457458343,20.39300473220652,4.53326034213216,22.636441659092142,5.659495188202534,24.246277415018927C6.771338200595723,25.83554153925831,9.064968779177775,26.040086949643847,10.954833971413397,26.47639520761995C12.615061434804725,26.859687600840584,14.322175893724182,26.3366208365808,16,26.633562846574932"
+        fill="currentColor"
+        className="fill-sky-400"
+    />
+</g>
 
                         {/* Shield + checkmark paths */}
                         <g>
@@ -54,7 +55,7 @@ const Navbar = () => {
                     </svg>
 
                 </div>
-                <div className="relative font-extrabold text-xl tracking-tight text-green-400 drop-shadow-[0_0_8px_rgba(74,222,128,0.4)] group-hover:drop-shadow-[0_0_16px_rgba(74,222,128,0.7)] transition-all duration-300 group-hover:scale-105">
+                <div className="relative font-extrabold text-xl tracking-tight text-sky-400 drop-shadow-[0_0_8px_rgba(74,222,128,0.4)] group-hover:drop-shadow-[0_0_16px_rgba(74,222,128,0.7)] transition-all duration-300 group-hover:scale-105">
                     &lt;<span className="text-white">मन्त्र</span>म्/&gt;
                 </div>
             </div>
@@ -63,11 +64,11 @@ const Navbar = () => {
             <a href="https://github.com" target="_blank" rel="noreferrer">
                 <button
                     className="relative overflow-hidden group
-                               bg-gradient-to-r from-green-800 via-emerald-600 to-green-700
-                               hover:from-green-700 hover:via-emerald-500 hover:to-green-500
+                               bg-gradient-to-r from-sky-800 via-sky-600 to-sky-700
+                               hover:from-sky-700 hover:via-sky-500 hover:to-sky-500
                                text-white font-semibold px-5 h-9 rounded-full text-sm
-                               shadow-lg shadow-green-900/50 hover:shadow-green-500/40 hover:shadow-xl
-                               ring-1 ring-green-500/40 hover:ring-green-500/60
+                               shadow-lg shadow-sky-900/50 hover:shadow-sky-500/40 hover:shadow-xl
+                               ring-1 ring-sky-500/40 hover:ring-sky-500/60
                                transition-all duration-300 ease-out
                                hover:scale-105 active:scale-95"
                 >

@@ -10,14 +10,14 @@ const Footer = () => {
             <div className="absolute bottom-0 right-1/4 w-64 h-24 bg-emerald-500/5 rounded-full blur-[80px] pointer-events-none" />
 
             {/* Top shimmer line */}
-            <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-green-500/40 to-transparent" />
+            <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-sky-500/40 to-transparent" />
 
             <div className="max-w-4xl mx-auto px-6 py-8 flex flex-col items-center gap-6">
 
                 {/* Logo */}
                 <div className="relative group cursor-default select-none flex items-center gap-1">
                     <div className="absolute -inset-2 bg-green-500/10 rounded-full blur-lg opacity-0 group-hover:opacity-100 transition-opacity duration-700" />
-                    <div className="relative font-extrabold text-lg tracking-tight text-green-400 drop-shadow-[0_0_8px_rgba(74,222,128,0.4)] group-hover:drop-shadow-[0_0_16px_rgba(74,222,128,0.7)] transition-all duration-300 group-hover:scale-105">
+                    <div className="relative font-extrabold text-lg tracking-tight text-sky-400 drop-shadow-[0_0_8px_rgba(74,222,128,0.4)] group-hover:drop-shadow-[0_0_16px_rgba(74,222,128,0.7)] transition-all duration-300 group-hover:scale-105">
                         &lt; <span className="text-white">मन्त्र</span>म् /&gt;
                     </div>
                 </div>
@@ -32,20 +32,20 @@ const Footer = () => {
 
                 {/* Bottom row */}
                 <div className="flex flex-col sm:flex-row items-center justify-between w-full gap-3 text-xs text-gray-600">
-                    <span>© {new Date().getFullYear()} <span className="text-green-500/70">मन्त्रम्</span>. All rights reserved.</span>
+                    <span>© {new Date().getFullYear()} <span className="text-sky-500/70">मन्त्रम्</span>. All rights reserved.</span>
 
                     
 
                     <div className="flex items-center gap-1">
                         <span>Made By</span>
-                        <span className="text-green-500 animate-pulse mx-0">♥</span>
+                       <span className="text-sky-500 animate-pulse mx-0">♥</span>
                         <span>PRIYANSHU-using React & Tailwind</span>
                     </div>
                     <div
                         href="https://github.com"
                         target="_blank"
                         rel="noreferrer"
-                        className="flex items-center gap-1.5 text-gray-500 hover:text-green-400 transition-colors duration-200 group/gh"
+                        className="flex items-center gap-1.5 text-gray-500 hover:text-sky-400 transition-colors duration-200 group/gh"
                     >
                         <svg className="w-4 h-4 transition-transform duration-300 group-hover/gh:scale-110 group-hover/gh:rotate-12" fill="currentColor" viewBox="0 0 24 24">
                             <path d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61-.546-1.385-1.335-1.755-1.335-1.755-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.605-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 21.795 24 17.295 24 12c0-6.63-5.37-12-12-12z" />

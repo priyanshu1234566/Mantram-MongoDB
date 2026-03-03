@@ -129,9 +129,9 @@ const savePassword = async () => {
                     <div className="absolute inset-0 bg-gradient-to-br from-gray-950 via-gray-900 to-gray-950" />
 
                     {/* Animated green blobs */}
-                    <div className="absolute top-[-10%] left-[-10%] w-[500px] h-[500px] bg-green-500/10 rounded-full blur-[120px] animate-pulse" />
-                    <div className="absolute bottom-[-10%] right-[-10%] w-[500px] h-[500px] bg-emerald-500/10 rounded-full blur-[120px] animate-pulse [animation-delay:1.5s]" />
-                    <div className="absolute top-[40%] left-[50%] w-[300px] h-[300px] bg-green-400/5 rounded-full blur-[100px] animate-pulse [animation-delay:3s]" />
+                    <div className="absolute top-[-10%] left-[-10%] w-[500px] h-[500px] bg-sky-500/10 rounded-full blur-[120px] animate-pulse" />
+                    <div className="absolute bottom-[-10%] right-[-10%] w-[500px] h-[500px] bg-sky-500/10 rounded-full blur-[120px] animate-pulse [animation-delay:1.5s]" />
+                    <div className="absolute top-[40%] left-[50%] w-[300px] h-[300px] bg-sky-400/5 rounded-full blur-[100px] animate-pulse [animation-delay:3s]" />
 
                     {/* Moving grid overlay */}
                     <div
@@ -144,7 +144,7 @@ const savePassword = async () => {
                     />
 
                     {/* Top shimmer line */}
-                    <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-green-500/40 to-transparent" />
+                    <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-sky-500/40 to-transparent" />
 
                 </div>
                 <div className="mycontainer max-w-4xl mx-auto p-4 md:px-6">
@@ -153,8 +153,8 @@ const savePassword = async () => {
                     <div className="flex flex-col items-center py-10 gap-2">
                         <div className="relative group cursor-default select-none">
                             {/* Glow behind logo */}
-                            <div className="absolute -inset-2 bg-green-500/20 rounded-full blur-xl opacity-0 group-hover:opacity-100 transition-opacity duration-700" />
-                            <div className="relative font-extrabold text-4xl tracking-tight text-green-400 drop-shadow-[0_0_12px_rgba(74,222,128,0.5)] transition-all duration-300 group-hover:drop-shadow-[0_0_20px_rgba(74,222,128,0.8)] group-hover:scale-105">
+                            <div className="absolute -inset-2 bg-sky-500/20 rounded-full blur-xl opacity-0 group-hover:opacity-100 transition-opacity duration-700" />
+                            <div className="relative font-extrabold text-4xl tracking-tight text-sky-400 drop-shadow-[0_0_12px_rgba(74,222,128,0.5)] transition-all duration-300 group-hover:drop-shadow-[0_0_20px_rgba(74,222,128,0.8)] group-hover:scale-105">
                                 &lt; <span className="text-white">मन्त्र</span>म् /&gt;
                             </div>
                         </div>
@@ -162,7 +162,7 @@ const savePassword = async () => {
                             Your Own Password Manager
                         </div>
                         {/* Divider */}
-                        <div className="mt-4 w-24 h-px bg-gradient-to-r from-transparent via-green-500 to-transparent" />
+                        <div className="mt-4 w-24 h-px bg-gradient-to-r from-transparent via-sky-500 to-transparent" />
                     </div>
 
                     {/*  INPUT SECTION  */}
@@ -177,7 +177,7 @@ const savePassword = async () => {
                                 type="text"
                                 placeholder="🌐  Enter Website URL"
                                 className="w-full px-5 h-11 rounded-full bg-gray-800 border border-gray-700 text-gray-100 placeholder-gray-500
-                                           focus:outline-none focus:border-green-500 focus:ring-2 focus:ring-green-500/30 focus:bg-gray-750
+                                           focus:outline-none focus:border-sky-500 focus:ring-2 focus:ring-sky-500/30 focus:bg-gray-750
                                            transition-all duration-300 hover:border-gray-600 text-sm"
                             />
                         </div>
@@ -191,7 +191,7 @@ const savePassword = async () => {
                                 type="text"
                                 placeholder="👤  Enter Username"
                                 className="w-full px-5 h-11 rounded-full bg-gray-800 border border-gray-700 text-gray-100 placeholder-gray-500
-                                           focus:outline-none focus:border-green-500 focus:ring-2 focus:ring-green-500/30
+                                           focus:outline-none focus:border-sky-500 focus:ring-2 focus:ring-sky-500/30
                                            transition-all duration-300 hover:border-gray-600 text-sm"
                             />
                             <div className="relative w-full">
@@ -203,7 +203,7 @@ const savePassword = async () => {
                                     type="password"
                                     placeholder="🔑 Enter Password"
                                     className="w-full px-5 pr-12 h-11 rounded-full bg-gray-800 border border-gray-700 text-gray-100 placeholder-gray-500
-                                               focus:outline-none focus:border-green-500 focus:ring-2 focus:ring-green-500/30
+                                               focus:outline-none focus:border-sky-500 focus:ring-2 focus:ring-sky-500/30
                                                transition-all duration-300 hover:border-gray-600 text-sm"
                                 />
                                 <span className="absolute right-3 top-1/2 -translate-y-1/2 cursor-pointer opacity-60 hover:opacity-100 transition-opacity duration-200">
@@ -222,11 +222,11 @@ const savePassword = async () => {
                         <button
                             onClick={savePassword}
                             className="relative overflow-hidden group
-                                       bg-gradient-to-r from-green-600 via-emerald-500 to-green-500
-                                       hover:from-green-500 hover:via-emerald-400 hover:to-green-400
+                                       bg-gradient-to-r from-sky-600 via-blue-500 to-sky-500
+                                       hover:from-sky-500 hover:via-blue-400 hover:to-sky-400
                                        text-white font-semibold px-8 h-11 rounded-full
-                                       shadow-lg shadow-green-900/50 hover:shadow-green-500/40 hover:shadow-xl
-                                       ring-1 ring-green-500/40 hover:ring-green-400/60
+                                       shadow-lg shadow-sky-900/50 hover:shadow-sky-500/40 hover:shadow-xl
+                                       ring-1 ring-sky-500/40 hover:ring-sky-400/60
                                        transition-all duration-300 ease-out
                                        hover:scale-105 active:scale-95"
                         >
@@ -247,9 +247,9 @@ const savePassword = async () => {
                     <div className="mt-10">
                         <div className="flex items-center gap-3 mb-5">
                             <h2 className="font-bold text-2xl text-gray-100">Your Passwords</h2>
-                            <div className="flex-1 h-px bg-gradient-to-r from-green-800/60 to-transparent" />
+                            <div className="flex-1 h-px bg-gradient-to-r from-sky-800/60 to-transparent" />
                             {passwordArray.length > 0 && (
-                                <span className="text-xs bg-green-900/50 text-green-400 border border-green-800 px-3 py-1 rounded-full">
+                                <span className="text-xs bg-sky-900/50 text-sky-400 border border-sky-800 px-3 py-1 rounded-full">
                                     {passwordArray.length} saved
                                 </span>
                             )}
@@ -269,7 +269,7 @@ const savePassword = async () => {
                             <div className="rounded-2xl overflow-hidden border border-gray-800 shadow-2xl shadow-black/50">
                                 <table className="table-auto w-full">
                                     <thead>
-                                        <tr className="bg-gradient-to-r from-green-900 via-emerald-900 to-green-900 text-green-300 text-sm uppercase tracking-wider">
+                                        <tr className="bg-gradient-to-r from-sky-900 via-blue-900 to-sky-900 text-sky-300 text-sm uppercase tracking-wider">
                                             <th className="py-3 px-4 text-left font-semibold">Username</th>
                                             <th className="py-3 px-4 text-left font-semibold">Site</th>
                                             <th className="py-3 px-4 text-left font-semibold">Password</th>
@@ -300,7 +300,7 @@ const savePassword = async () => {
                                                 <td className="py-3 px-4">
                                                     <div className="flex items-center gap-2">
                                                         <a href={item.site} target="_blank"
-                                                            className="text-green-400 hover:text-green-300 text-sm truncate max-w-[160px] transition-colors duration-200 hover:underline underline-offset-2">
+                                                            className="text-sky-400 hover:text-sky-300 text-sm truncate max-w-[160px] transition-colors duration-200 hover:underline underline-offset-2">
                                                             {item.site}
                                                         </a>
                                                         <button
