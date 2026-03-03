@@ -20,6 +20,26 @@
 
 ---
 
+
+---
+# 🖼 Screenshots
+
+> 📌 Add your screenshots inside a `/screenshots` folder in your project
+
+## 🏠 Home Page
+![Home Screenshot](./src/icons/1.png)
+
+## ➕ Create Data
+![Create Screenshot](./src/icons/3.png)
+
+## 📋 Data Listing
+![List Screenshot](./src/icons/4.png)
+
+## ✏️ Update Feature
+![Update Screenshot](./src/icons/2.png)
+
+---
+
 # 📌 Project Overview
 
 **Mantram MongoDB Web Application** is a full-stack CRUD application built using modern web technologies.  
@@ -66,26 +86,6 @@ This project is designed following scalable architecture principles and clean co
 - ⚡ Fast HMR with Vite
 - 🔐 Secure environment variables
 - 🌍 RESTful API Architecture
-
----
-
-# 🖼 Screenshots
-
-> 📌 Add your screenshots inside a `/screenshots` folder in your project
-
-## 🏠 Home Page
-![Home Screenshot](./src/icons/1.png)
-
-## ➕ Create Data
-![Create Screenshot](./src/icons/3.png)
-
-## 📋 Data Listing
-![List Screenshot](./src/icons/4.png)
-
-## ✏️ Update Feature
-![Update Screenshot](./src/icons/2.png)
-
----
 
 # 📂 Project Structure
 
