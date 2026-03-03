@@ -1,21 +1,158 @@
-# Live View
-https://mantram-mongo-db.vercel.app/
+# 🚀 Mantram MongoDB Web Application
 
+🔗 **Live Demo:** https://mantram-mongo-db.vercel.app/
 
+A full-stack web application built using **React + Vite** for the frontend and **Node.js, Express, and MongoDB** for the backend.  
+This project demonstrates CRUD operations, REST API integration, and modern development practices.
 
-# React + Vite
+---
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📌 Tech Stack
 
-Currently, two official plugins are available:
+### 🖥 Frontend
+- React.js
+- Vite
+- Axios
+- Tailwind CSS (if used)
+- ESLint
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### 🌐 Backend
+- Node.js
+- Express.js
+- MongoDB
+- dotenv
+- body-parser / express.json()
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ✨ Features
 
-## Expanding the ESLint configuration
+- ✅ Create Data
+- ✅ Read Data
+- ✅ Update Data
+- ✅ Delete Data
+- ⚡ Fast Development with Vite (HMR)
+- 🔐 Environment Variable Support
+- 🌍 REST API Integration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 📂 Project Structure
+
+```
+Mantram-MongoDB/
+│
+├── client/              # React Frontend
+│   ├── src/
+│   ├── public/
+│   └── package.json
+│
+├── server/              # Express Backend
+│   ├── index.js
+│   ├── routes/
+│   ├── models/
+│   └── package.json
+│
+└── README.md
+```
+
+---
+
+## ⚙️ Installation & Setup
+
+### 1️⃣ Clone the Repository
+
+```bash
+git clone https://github.com/your-username/your-repo-name.git
+cd your-repo-name
+```
+
+---
+
+### 2️⃣ Backend Setup
+
+```bash
+cd server
+npm install
+```
+
+Create a `.env` file inside the server folder:
+
+```
+PORT=5000
+MONGO_URI=your_mongodb_connection_string
+```
+
+Start Backend Server:
+
+```bash
+npm start
+```
+
+---
+
+### 3️⃣ Frontend Setup
+
+```bash
+cd client
+npm install
+npm run dev
+```
+
+Frontend will run on:
+
+```
+http://localhost:5173
+```
+
+---
+
+## 🚀 Available Scripts
+
+### Frontend
+- `npm run dev` → Start development server
+- `npm run build` → Production build
+- `npm run preview` → Preview production build
+
+### Backend
+- `npm start` → Start server
+- `npm run dev` → Start server with nodemon (if installed)
+
+---
+
+## 🌍 Deployment
+
+- **Frontend:** Deployed on Vercel  
+- **Backend:** Can be deployed on Render / Railway / VPS  
+- **Database:** MongoDB Atlas
+
+---
+
+## 📖 About Vite + React
+
+This project uses Vite for faster builds and Hot Module Replacement (HMR).
+
+Available official plugins:
+
+- `@vitejs/plugin-react` (Babel based)
+- `@vitejs/plugin-react-swc` (SWC based)
+
+---
+
+## 🧠 Future Improvements
+
+- 🔐 Add Authentication (JWT)
+- 📊 Add Dashboard UI
+- 🌈 Improve UI/UX
+- 📦 Add TypeScript Support
+- 🧪 Add Testing (Jest / Vitest)
+
+---
+
+## 👨‍💻 Author
+
+Developed by **5G Star Saini**
+
+If you like this project, don’t forget to ⭐ the repository!
+
+---
