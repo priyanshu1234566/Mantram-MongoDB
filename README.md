@@ -151,7 +151,7 @@ Available official plugins:
 
 ## 👨‍💻 Author
 
-Developed by **5G Star Saini**
+Developed by **Priyanshu Kumar**
 
 If you like this project, don’t forget to ⭐ the repository!
 
