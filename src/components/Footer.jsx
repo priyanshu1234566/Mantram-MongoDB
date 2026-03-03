@@ -39,7 +39,7 @@ const Footer = () => {
                     <div className="flex items-center gap-1">
                         <span>Made By</span>
                         <span className="text-green-500 animate-pulse mx-0">♥</span>
-                        <span>PRIYANSHU-ssusing React & Tailwind</span>
+                        <span>PRIYANSHU-using React & Tailwind</span>
                     </div>
                     <div
                         href="https://github.com"
