@@ -41,17 +41,17 @@ const Footer = () => {
                        <span className="text-sky-500 animate-pulse mx-0">♥</span>
                         <span>PRIYANSHU-using React & Tailwind</span>
                     </div>
-                    <div
-                        href="https://github.com"
-                        target="_blank"
-                        rel="noreferrer"
-                        className="flex items-center gap-1.5 text-gray-500 hover:text-sky-400 transition-colors duration-200 group/gh"
-                    >
-                        <svg className="w-4 h-4 transition-transform duration-300 group-hover/gh:scale-110 group-hover/gh:rotate-12" fill="currentColor" viewBox="0 0 24 24">
-                            <path d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61-.546-1.385-1.335-1.755-1.335-1.755-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.605-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 21.795 24 17.295 24 12c0-6.63-5.37-12-12-12z" />
-                        </svg>
-                        <a href="https://github.com/priyanshu1234566" target="_blank">GitHub</a>
-                    </div>
+                   <div
+                     href="https://twitter.com"
+                     target="_blank"
+                     rel="noreferrer"
+                    className="flex items-center gap-1.5 text-gray-500 hover:text-sky-400 transition-colors duration-200 group/twitter"
+               >
+                    <svg className="w-4 h-4 transition-transform duration-300 group-hover/twitter:scale-110 group-hover/twitter:rotate-12"fill="currentColor" viewBox="0 0 24 24" >
+                        <path d="M23.954 4.569c-.885.392-1.83.656-2.825.775 1.014-.611 1.794-1.574 2.163-2.723-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-2.717 0-4.92 2.203-4.92 4.917 0 .39.045.765.127 1.124-4.087-.205-7.713-2.163-10.141-5.144-.423.722-.666 1.561-.666 2.475 0 1.708.87 3.215 2.188 4.099-.807-.026-1.566-.248-2.228-.616v.062c0 2.385 1.693 4.374 3.946 4.827-.413.112-.849.171-1.296.171-.317 0-.626-.03-.927-.086.627 1.956 2.444 3.379 4.6 3.419-1.68 1.318-3.808 2.104-6.115 2.104-.397 0-.788-.023-1.175-.068 2.179 1.397 4.768 2.213 7.557 2.213 9.054 0 14-7.496 14-13.986 0-.21 0-.423-.015-.634.962-.695 1.8-1.562 2.46-2.549z" />
+                    </svg>
+                    <a href="https://twitter.com/priyanshu123" target="_blank">Twitter</a>
+                   </div>
                     <div
                         href="https://instagram.com"
                         target="_blank"
